@@ -1,0 +1,17 @@
+.Nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav a:hover,
+.Nav a:active,
+.Nav a.active {
+  color: #fa923f;
+}

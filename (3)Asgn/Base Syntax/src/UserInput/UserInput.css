@@ -1,0 +1,14 @@
+.userInput {
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  text-align: center;
+  width: 20%;
+  height: 30px;
+  margin: 20px 40%;
+}
+
+.userInput:focus,
+.userInput:active {
+  border: 2px solid black;
+  border-radius: 5px;
+}
